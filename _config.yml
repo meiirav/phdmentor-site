@@ -30,7 +30,7 @@ author:
       url: "/book/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:you@phdmentor.org"    # TODO: replace with your real contact email
+      url: "mailto:meirav@phdmentor.org"    # TODO: replace with your real contact email
     # - label: "LinkedIn"
     #   icon: "fab fa-fw fa-linkedin"
     #   url: "https://linkedin.com/in/yourprofile"
@@ -39,7 +39,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:you@phdmentor.org"
+      url: "mailto:meirav@phdmentor.org"
 
 # --- Build settings ---
 markdown: kramdown
