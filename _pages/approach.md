@@ -2,9 +2,9 @@
 title: "How It Works"
 permalink: /approach/
 header:
-  image: /assets/images/background.png
-  overlay_color: "#8a5a3d"
-  overlay_filter: "0.55"
+  overlay_color: "#8A2D3B"
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/hero_image.jpg
 ---
 
 ## This is a process, not a one-time pep talk
