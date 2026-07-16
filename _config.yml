@@ -25,9 +25,9 @@ author:
   bio: "Postdoc in Computer Science. I help CS PhD students build research skills, navigate advisor relationships, and feel less alone in grad school."
   location: "Zurich, Switzerland"
   links:
-    - label: "Book a Free Session"
-      icon: "fas fa-fw fa-calendar"
-      url: "/book/"
+   # - label: "Book a Free Session"
+   #   icon: "fas fa-fw fa-calendar"
+   #   url: "/book/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:meirav@phdmentor.org"    # TODO: replace with your real contact email
