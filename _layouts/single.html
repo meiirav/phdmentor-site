@@ -59,7 +59,9 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html locale=locale %}
-        {% include page__date.html locale=locale %}
+        {% if page.date %}
+          {% include page__date.html locale=locale %}
+        {% endif %}
       </footer>
 
       {% if page.share %}{% include social-share.html locale=locale %}{% endif %}
