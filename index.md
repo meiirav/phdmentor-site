@@ -5,7 +5,7 @@ hidden: true
 header:
   overlay_color: "#8a5a3d"
   overlay_filter: "0.55"
-  overlay_image: /assets/images/hero-placeholder.svg
+  overlay_image: /assets/images/background.png
   actions:
     - label: "Book a Free Session"
       url: "/book/"
