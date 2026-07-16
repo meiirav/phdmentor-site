@@ -33,7 +33,7 @@ $footer-background-color: $ochre-dark !default;
 // Typography — warm humanist sans for body, keep it readable
 $sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $sans-serif-narrow: $sans-serif !default;
-$type-size-base: 16px !default;
+$type-size-base: 18px !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
