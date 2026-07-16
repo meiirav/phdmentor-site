@@ -2,7 +2,7 @@
 title: "About Me"
 permalink: /about/
 header:
-  image: /assets/images/hero-placeholder.svg
+  image: /assets/images/background.png
   overlay_color: "#8a5a3d"
   overlay_filter: "0.55"
 ---
