@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "How It Works"
+    url: /approach/
+  - title: "Blog"
+    url: /blog/
+  - title: "Book a Session"
+    url: /book/

@@ -1,0 +1,66 @@
+---
+# Only the main Sass file needs front matter (the dashes are required
+# for Jekyll to process Sass)
+---
+
+@charset "utf-8";
+
+/* ==========================================================================
+   PhDMentor.org — custom palette
+   Ochre (primary / warmth) + dusty rose (accent)
+   These override Minimal Mistakes' !default variables, so they MUST come
+   BEFORE the theme imports below.
+   ========================================================================== */
+
+// Core palette
+$ochre: #b5652d;           // primary — headers, buttons, links on hover
+$ochre-dark: #8a5a3d;      // header overlays, footer
+$dusty-rose: #c17d8a;      // accent — tags, highlights, small UI details
+$cream: #faf6f1;           // page background — warm off-white, not stark white
+$charcoal: #3a3532;        // body text — warm dark gray, not pure black
+
+// Minimal Mistakes theme variable overrides
+$background-color: $cream !default;
+$text-color: $charcoal !default;
+$primary-color: $ochre !default;
+$link-color: $ochre-dark !default;
+$link-color-hover: $dusty-rose !default;
+$link-color-visited: $ochre-dark !default;
+$masthead-link-color: $charcoal !default;
+$masthead-link-color-hover: $ochre !default;
+$footer-background-color: $ochre-dark !default;
+
+// Typography — warm humanist sans for body, keep it readable
+$sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$sans-serif-narrow: $sans-serif !default;
+$type-size-base: 18px !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   Additional custom touches beyond variable overrides
+   ========================================================================== */
+
+// Buttons: warmer, slightly rounded, ochre-forward
+.btn--primary {
+  background-color: $ochre;
+  &:hover {
+    background-color: $dusty-rose;
+  }
+}
+
+// Tag/category pills pick up the dusty rose accent
+.page__taxonomy-item {
+  color: $dusty-rose;
+}
+
+// Feature row titles in the ochre tone rather than default theme color
+.feature__wrapper .archive__item-title {
+  color: $ochre-dark;
+}
+
+// Slightly warmer sidebar background so it doesn't feel clinical
+.sidebar {
+  background-color: lighten($cream, 1%);
+}
