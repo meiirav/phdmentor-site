@@ -45,6 +45,9 @@ footer:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:meirav@phdmentor.org"
 
+atom_feed:
+  hide: true
+
 # --- Build settings ---
 markdown: kramdown
 highlighter: rouge
