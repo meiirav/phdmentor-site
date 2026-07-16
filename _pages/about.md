@@ -1,11 +1,12 @@
 ---
+layout: single
 title: "About Me"
 permalink: /about/
 author_profile: true
 header:
   image: /assets/images/background.png
-  overlay_color: "#8a5a3d"
-  overlay_filter: "0.55"
+  overlay_color: "#641B2E"
+  overlay_filter: "0.35"
 ---
 
 I'm a postdoc in computer science. During my time in academia, I've had many
