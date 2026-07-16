@@ -22,5 +22,5 @@ questionnaire beforehand so we can make the most of our time together.
 
 <p style="margin-top: 2em; font-size: 0.9em; color: #6b6b6b;">
   Not sure yet whether this is a good fit? Feel free to
-  <a href="mailto:you@phdmentor.org">email me</a> with any questions before booking.
+  <a href="mailto:meirav@phdmentor.org">email me</a> with any questions before booking.
 </p>
