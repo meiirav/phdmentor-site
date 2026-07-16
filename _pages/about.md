@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 permalink: /about/
+author_profile: true
 header:
   image: /assets/images/background.png
   overlay_color: "#8a5a3d"
