@@ -20,10 +20,10 @@ locale: "en-US"
 
 # --- Author (shown in sidebar) ---
 author:
-  name: "Your Name"                     # TODO
+  name: "Meirav Segal"                     # TODO
   avatar: "/assets/images/avatar-placeholder.svg"
   bio: "Postdoc in Computer Science. I help CS PhD students build research skills, navigate advisor relationships, and feel less alone in grad school."
-  location: ""
+  location: "Zurich, Switzerland"
   links:
     - label: "Book a Free Session"
       icon: "fas fa-fw fa-calendar"
@@ -31,6 +31,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:meirav@phdmentor.org"    # TODO: replace with your real contact email
+    - label: "Research profile"
+      icon: "fas fa-graduation-cap"
+      url: "https://meiravsegal.com"
     # - label: "LinkedIn"
     #   icon: "fab fa-fw fa-linkedin"
     #   url: "https://linkedin.com/in/yourprofile"
