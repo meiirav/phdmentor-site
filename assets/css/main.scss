@@ -12,55 +12,76 @@
    BEFORE the theme imports below.
    ========================================================================== */
 
-// Core palette
-$ochre: #b5652d;           // primary — headers, buttons, links on hover
-$ochre-dark: #8a5a3d;      // header overlays, footer
-$dusty-rose: #c17d8a;      // accent — tags, highlights, small UI details
-$cream: #faf6f1;           // page background — warm off-white, not stark white
-$charcoal: #3a3532;        // body text — warm dark gray, not pure black
+// ===================================================
+// PhD Mentor color palette
+// ===================================================
 
-// Minimal Mistakes theme variable overrides
-$background-color: $cream !default;
-$text-color: $charcoal !default;
-$primary-color: $ochre !default;
-$link-color: $ochre-dark !default;
-$link-color-hover: $dusty-rose !default;
-$link-color-visited: $ochre-dark !default;
-$masthead-link-color: $charcoal !default;
-$masthead-link-color-hover: $ochre !default;
-$footer-background-color: $ochre-dark !default;
+// Main palette
+$gold: #FBDB93;
+$terracotta: #BE5B50;
+$burgundy: #8A2D3B;
+$deep-burgundy: #641B2E;
+$warm-white: #F6F3EE;
+$card-white: #FFFDF8;
+$text: #3E3534;
 
-// Typography — warm humanist sans for body, keep it readable
+// Minimal Mistakes variable overrides
+$background-color: $warm-white !default;
+$text-color: $text !default;
+
+$primary-color: $terracotta !default;
+
+$link-color: $burgundy !default;
+$link-color-hover: $terracotta !default;
+$link-color-visited: $burgundy !default;
+
+$masthead-link-color: $text !default;
+$masthead-link-color-hover: $terracotta !default;
+
+$footer-background-color: $deep-burgundy !default;
+
+// Typography
 $sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $sans-serif-narrow: $sans-serif !default;
 $type-size-base: 18px !default;
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
 /* ==========================================================================
    Additional custom touches beyond variable overrides
    ========================================================================== */
+// ---------------------------------------------------
+// Custom tweaks
+// ---------------------------------------------------
 
-// Buttons: warmer, slightly rounded, ochre-forward
+body {
+  background-color: $warm-white;
+}
+
+.masthead {
+  background-color: $card-white;
+}
+
+.page__footer {
+  background-color: $deep-burgundy;
+}
+
 .btn--primary {
-  background-color: $ochre;
-  &:hover {
-    background-color: $dusty-rose;
-  }
+  background-color: $terracotta;
+  border-color: $terracotta;
 }
 
-// Tag/category pills pick up the dusty rose accent
-.page__taxonomy-item {
-  color: $dusty-rose;
+.btn--primary:hover {
+  background-color: $burgundy;
+  border-color: $burgundy;
 }
 
-// Feature row titles in the ochre tone rather than default theme color
-.feature__wrapper .archive__item-title {
-  color: $ochre-dark;
+.archive__item {
+  background-color: $card-white;
+  border-radius: 12px;
 }
 
-// Slightly warmer sidebar background so it doesn't feel clinical
-.sidebar {
-  background-color: lighten($cream, 1%);
+h1, h2, h3, h4 {
+  color: $deep-burgundy;
 }
