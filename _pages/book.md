@@ -2,9 +2,9 @@
 title: "Book a Session"
 permalink: /book/
 header:
-  image: /assets/images/hero-placeholder.svg
-  overlay_color: "#8a5a3d"
-  overlay_filter: "0.55"
+  overlay_color: "#8A2D3B"
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/hero_image.jpg
 ---
 
 Right now I'm offering free 30-minute discovery sessions to CS PhD students.
