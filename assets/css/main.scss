@@ -72,9 +72,29 @@ $type-size-base: 18px !default;
   color: $burgundy-dark;
 }
 
-// Slightly warmer sidebar background so it doesn't feel clinical
+// Dark sidebar
 .sidebar {
-  background-color: $white-cream;
+  background-color: $burgundy-dark;
+  color: $white-cream;
+
+  .author__name,
+  .author__bio {
+    color: $white-cream;
+  }
+
+  a {
+    color: $gold;
+
+    &:hover {
+      color: $coral;
+    }
+  }
+
+  .author__urls {
+    a {
+      color: $gold;
+    }
+  }
 }
 
 .archive__item,
