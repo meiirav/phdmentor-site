@@ -10,9 +10,9 @@ minimal_mistakes_skin: "default"   # we override colors ourselves in assets/css/
 show_blog_on_home: true   # set to false to hide the "From the Blog" homepage section
 
 # --- Site basics ---
-title: "PhDMentor"
+title: "PhD Mentor"
 title_separator: "-"
-name: "Your Name"                       # TODO: replace with your real name
+name: "Meirav Segal"                       # TODO: replace with your real name
 description: "One-on-one coaching and mentoring for CS PhD students navigating advising, research skills, and academic life."
 url: "https://phdmentor.org"
 baseurl: ""
