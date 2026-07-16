@@ -16,29 +16,29 @@
 // PhD Mentor color palette
 // ===================================================
 
-// Main palette
-$gold: #FBDB93;
-$terracotta: #BE5B50;
-$burgundy: #8A2D3B;
-$deep-burgundy: #641B2E;
-$warm-white: #F6F3EE;
-$card-white: #FFFDF8;
-$text: #3E3534;
+// Core palette — PhD Mentor palette
+$coral: #BE5B50;          // primary buttons, calls-to-action
+$burgundy: #8A2D3B;       // links, interactive elements
+$burgundy-dark: #641B2E;  // headings, strong text accents
+$cream: #F6F3EE;          // page background
+$white-cream: #FFFDF8;    // cards, navbar, elevated surfaces
+$gold: #FBDB93;           // hero accents, illustrations
+$charcoal: #3A3532;       // body text (keep for readability)
 
-// Minimal Mistakes variable overrides
-$background-color: $warm-white !default;
-$text-color: $text !default;
 
-$primary-color: $terracotta !default;
+// Minimal Mistakes theme variable overrides
+$background-color: $cream !default;
+$text-color: $charcoal !default;
+$primary-color: $coral !default;
 
 $link-color: $burgundy !default;
-$link-color-hover: $terracotta !default;
+$link-color-hover: $coral !default;
 $link-color-visited: $burgundy !default;
 
-$masthead-link-color: $text !default;
-$masthead-link-color-hover: $terracotta !default;
+$masthead-link-color: $burgundy-dark !default;
+$masthead-link-color-hover: $coral !default;
 
-$footer-background-color: $deep-burgundy !default;
+$footer-background-color: $burgundy-dark !default;
 
 // Typography
 $sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -54,34 +54,30 @@ $type-size-base: 18px !default;
 // ---------------------------------------------------
 // Custom tweaks
 // ---------------------------------------------------
-
-body {
-  background-color: $warm-white;
-}
-
-.masthead {
-  background-color: $card-white;
-}
-
-.page__footer {
-  background-color: $deep-burgundy;
-}
-
+// Buttons: warmer, slightly rounded, ochre-forward
 .btn--primary {
-  background-color: $terracotta;
-  border-color: $terracotta;
+  background-color: $coral;
+  &:hover {
+    background-color: $burgundy;
+  }
 }
 
-.btn--primary:hover {
-  background-color: $burgundy;
-  border-color: $burgundy;
+// Tag/category pills pick up the dusty rose accent
+.page__taxonomy-item {
+  color: $burgundy;
 }
 
-.archive__item {
-  background-color: $card-white;
-  border-radius: 12px;
+// Feature row titles in the ochre tone rather than default theme color
+.feature__wrapper .archive__item-title {
+  color: $burgundy-dark;
 }
 
-h1, h2, h3, h4 {
-  color: $deep-burgundy;
+// Slightly warmer sidebar background so it doesn't feel clinical
+.sidebar {
+  background-color: $white-cream;
+}
+
+.archive__item,
+.card {
+  background-color: $white-cream;
 }
