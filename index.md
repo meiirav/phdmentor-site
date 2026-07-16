@@ -63,7 +63,7 @@ feature_row:
 {% endif %}
 
 {% if site.show_blog_on_home != false and home_posts.size > 0 %}
-<div class="page__content" style="max-width: 1024px; margin: 3em auto 0;">
+<div class="page__content" style="max-width: 1024px; margin: 3em auto 0; overflow: auto;">
   <h2 style="text-align:center;">From the Blog</h2>
   <div class="grid__wrapper">
     {% for post in home_posts %}
@@ -75,6 +75,8 @@ feature_row:
   </div>
 </div>
 {% endif %}
+
+<div style="clear:both;"></div>
 
 <div class="page__content" style="text-align:center; margin-top: 2em;">
   <h2>Right now, I'm offering free discovery sessions</h2>
