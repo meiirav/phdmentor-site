@@ -71,7 +71,7 @@ feature_row:
     {% endfor %}
   </div>
   <div style="text-align:center; margin-top: 1em;">
-    <a href="/blog/" class="btn btn--light-outline">Read All Posts</a>
+    <a href="/blog/" class="btn btn--outline">Read All Posts</a>
   </div>
 </div>
 {% endif %}
