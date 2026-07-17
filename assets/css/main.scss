@@ -284,7 +284,12 @@ $type-size-base: 18px !default;
 }
 
 .masthead .site-logo {
-  max-height: 20px;
+  max-height: 16px;
   width: auto;
   margin-right: 8px;
+}
+
+.masthead .site-title {
+  display: flex;
+  align-items: center;
 }
