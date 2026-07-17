@@ -2,6 +2,6 @@
 title: "Blog"
 permalink: /blog/
 layout: home
-entries_layout: list
+entries_layout: grid
 show_teaser: true
 ---
