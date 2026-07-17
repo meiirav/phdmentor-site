@@ -83,6 +83,7 @@ defaults:
       comments: false
       share: true
       related: true
+      show_teaser: true
   # homepage
   - scope:
       path: "index.md"
