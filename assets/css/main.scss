@@ -209,4 +209,22 @@ $type-size-base: 18px !default;
       color: $white-cream;
     }
   }
+
+  .author__urls {
+    background-color: $burgundy-dark;
+    padding: 0.75em 1em;
+    border-radius: 8px;
+
+    li {
+      color: $white-cream;
+    }
+
+    a {
+      color: $gold;
+
+      &:hover {
+        color: $coral;
+      }
+    }
+  }
 }
