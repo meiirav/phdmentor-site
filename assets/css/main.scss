@@ -76,6 +76,8 @@ $type-size-base: 18px !default;
 .sidebar {
   background-color: $burgundy-dark;
   color: $white-cream;
+  padding: 1.25em;
+  border-radius: 8px;
 
   .author__name,
   .author__bio {
@@ -100,4 +102,111 @@ $type-size-base: 18px !default;
 .archive__item,
 .card {
   background-color: $white-cream;
+  padding: 1.25em;
+  border-radius: 8px;
+}
+
+// ---------------------------------------------------
+// Mobile nav (see _includes/masthead.html override)
+// Always fully collapsed below 768px — no partial item
+// overflow, everything lives in the dropdown.
+// ---------------------------------------------------
+.mobile-nav {
+  display: none; // hidden on desktop; shown below 768px
+}
+
+@media screen and (max-width: 768px) {
+  .greedy-nav .visible-links,
+  .greedy-nav__toggle,
+  .greedy-nav .hidden-links {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    display: block;
+    margin-left: auto;
+  }
+
+  .mobile-nav__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    .navicon {
+      position: relative;
+      width: 22px;
+      height: 2px;
+      background: $burgundy-dark;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 22px;
+        height: 2px;
+        background: $burgundy-dark;
+      }
+
+      &::before { top: -7px; }
+      &::after { top: 7px; }
+    }
+  }
+
+  .mobile-nav__list {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: $white-cream;
+    border: 1px solid rgba($burgundy-dark, 0.15);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    padding: 0.5em 0;
+    margin: 0.5em 1em 0 0;
+    min-width: 180px;
+    z-index: 20;
+    list-style: none;
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      display: block;
+      padding: 0.6em 1.2em;
+      color: $burgundy-dark;
+
+      &:hover {
+        background-color: $cream;
+        color: $coral;
+      }
+    }
+  }
+}
+
+// The "Follow" toggle button that appears on mobile to expand the author
+// sidebar — give it explicit, readable colors instead of inheriting
+// whatever low-contrast default it was picking up.
+.author__urls-wrapper {
+  .btn,
+  button {
+    background-color: $burgundy-dark;
+    color: $white-cream;
+    border-color: $burgundy-dark;
+
+    &:hover,
+    &:focus {
+      background-color: $coral;
+      border-color: $coral;
+      color: $white-cream;
+    }
+  }
 }
