@@ -219,21 +219,21 @@ $type-size-base: 18px !default;
       color: $white-cream;
     }
 
+    i,
+    svg {
+      color: $gold !important;
+    }
+
     a {
       color: $gold;
 
       &:hover {
         color: $coral;
-      }
 
-      i,
-      svg {
-        color: $gold !important;
-      }
-
-      &:hover i,
-      &:hover svg {
-        color: $coral !important;
+        i,
+        svg {
+          color: $coral !important;
+        }
       }
     }
   }
