@@ -21,7 +21,7 @@ locale: "en-US"
 # --- Author (shown in sidebar) ---
 author:
   name: "Meirav Segal"                     # TODO
-  avatar: "/assets/images/avatar-placeholder.svg"
+  avatar: "/assets/images/mypic.jpg"
   bio: "Postdoc in Computer Science. I help CS PhD students build research skills, navigate advisor relationships, and feel less alone in grad school."
   location: "Zurich, Switzerland"
   links:
