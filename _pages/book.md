@@ -1,6 +1,7 @@
 ---
 title: "Book a Session"
 permalink: /book/
+excerpt: ""
 header:
   overlay_color: "#8A2D3B"
   overlay_filter: "0.20"
