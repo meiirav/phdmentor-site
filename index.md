@@ -14,8 +14,6 @@ header:
   caption: ""
 excerpt: "You don't have to figure out your PhD alone. I help CS PhD students build research skills, navigate advisor relationships, and find their footing — one conversation at a time."
 title: "PhD Mentor"
-intro:
-  - excerpt: 'Most PhD advisors are hired for their research, not their supervision. If you feel underguided, underinformed, or just plain lost — you are not the problem, and you are not alone.'
 feature_row:
   - image_path: /assets/images/icon-compass-placeholder.svg
     alt: "Find your direction"
@@ -40,7 +38,9 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+<div class="page__content" style="max-width: 700px; margin: 0 auto; text-align: center;">
+  <p style="font-size: 1.25em; line-height: 1.6;">Most PhD advisors are hired for their research, not their supervision. If you feel underguided, underinformed, or just plain lost — you are not the problem, and you are not alone.</p>
+</div>
 
 {% include feature_row %}
 
