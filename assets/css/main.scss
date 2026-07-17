@@ -251,3 +251,18 @@ $type-size-base: 18px !default;
     }
   }
 }
+
+// Footer: warm off-white instead of the theme's default grey, for
+// better contrast against the dark burgundy background, without
+// making it compete visually with primary content.
+.page__footer {
+  color: rgba($white-cream, 0.75);
+
+  a {
+    color: $gold;
+
+    &:hover {
+      color: $coral;
+    }
+  }
+}
