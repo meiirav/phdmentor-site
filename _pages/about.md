@@ -2,6 +2,7 @@
 title: "About Me"
 permalink: /about/
 author_profile: true
+excerpt: ""
 header:
   overlay_color: "#8A2D3B"
   overlay_filter: "0.20"
