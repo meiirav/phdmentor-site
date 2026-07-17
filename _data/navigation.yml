@@ -3,6 +3,8 @@ main:
     url: /about/
   - title: "How It Works"
     url: /approach/
+  - title: "Resources"
+    url: /resources/
   - title: "Blog"
     url: /blog/
   - title: "Book a Session"
