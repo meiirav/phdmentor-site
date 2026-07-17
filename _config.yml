@@ -22,7 +22,7 @@ locale: "en-US"
 author:
   name: "Meirav Segal"                     # TODO
   avatar: "/assets/images/mypic.jpg"
-  bio: "Postdoc in Computer Science. I help CS PhD students build research skills, navigate advisor relationships, and feel less alone in grad school."
+  bio: "Postdoc in Computer Science"
   location: "Zurich, Switzerland"
   links:
    # - label: "Book a Free Session"
