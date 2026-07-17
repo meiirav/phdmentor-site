@@ -2,9 +2,9 @@
 title: "What to Ask Before Joining a PhD Group"
 excerpt: "The questions I wish more students asked before committing to an advisor — and why 'strong publication record' isn't the only thing that matters."
 header:
-  overlay_color: "#8a5a3d"
-  overlay_filter: "0.55"
-  overlay_image: /assets/images/hero-placeholder.svg
+  overlay_color: "#8A2D3B"
+  overlay_filter: "0.20"
+  overlay_image: /assets/images/post_selecting_group.png
   teaser: /assets/images/hero-placeholder.svg
 categories:
   - choosing-an-advisor
