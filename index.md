@@ -12,8 +12,8 @@ header:
     - label: "Read the Blog"
       url: "/blog/"
   caption: ""
-excerpt: "You don't have to figure out your PhD alone. I help CS PhD students build research skills, navigate advisor relationships, and find their footing — one conversation at a time."
-title: "PhD Mentor"
+excerpt: "You don't have to figure out your PhD alone. I help CS PhD students build research skills, navigate advisor relationships, and find their footing - one conversation at a time."
+title: "PhD Mentor - Guidance for navigating the PhD journey"
 feature_row:
   - image_path: /assets/images/icon-compass-placeholder.svg
     alt: "Find your direction"
