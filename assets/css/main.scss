@@ -198,15 +198,15 @@ $type-size-base: 18px !default;
 .author__urls-wrapper {
   .btn,
   button {
-    background-color: $burgundy-dark;
+    background-color: $coral;
     color: $white-cream;
-    border-color: $burgundy-dark;
+    border-color: $coral;
 
     &:hover,
     &:focus {
-      background-color: $coral;
-      border-color: $coral;
-      color: $white-cream;
+      background-color: $gold;
+      color: $burgundy-dark;
+      border-color: $gold;
     }
   }
 
@@ -224,6 +224,16 @@ $type-size-base: 18px !default;
 
       &:hover {
         color: $coral;
+      }
+
+      i,
+      svg {
+        color: $gold !important;
+      }
+
+      &:hover i,
+      &:hover svg {
+        color: $coral !important;
       }
     }
   }
