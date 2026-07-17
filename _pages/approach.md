@@ -1,7 +1,7 @@
 ---
 title: "How It Works"
 permalink: /approach/
-excerpt: false
+excerpt: ""
 header:
   overlay_color: "#8A2D3B"
   overlay_filter: "0.20"
