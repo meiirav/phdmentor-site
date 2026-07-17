@@ -2,8 +2,11 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | absolute_url }}">
-          {{ site.title }}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/images/logo_transparent_crop.png' | relative_url }}"
+            alt="PhD Mentor logo"
+            class="site-logo">
+          {{ site.masthead_title | default: site.title }}
         </a>
 
         <ul class="visible-links">
