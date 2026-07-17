@@ -70,6 +70,7 @@ feature_row:
       {% include archive-single.html type="grid" %}
     {% endfor %}
   </div>
+  <div style="clear:both;"></div>
   <div style="text-align:center; margin-top: 1em;">
     <a href="/blog/" class="btn btn--outline">Read All Posts</a>
   </div>
