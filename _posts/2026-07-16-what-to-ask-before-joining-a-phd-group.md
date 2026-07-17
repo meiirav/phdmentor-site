@@ -4,7 +4,7 @@ excerpt: "The questions I wish more students asked before committing to an advis
 header:
   overlay_color: "#8A2D3B"
   overlay_filter: "0.20"
-  overlay_image: /assets/images/post_selecting_group.png
+  overlay_image: /assets/images/selecting_group_hero.png
   teaser: /assets/images/selecting_group_teaser.png
 categories:
   - choosing-an-advisor
