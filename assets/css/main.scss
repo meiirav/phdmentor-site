@@ -264,5 +264,15 @@ $type-size-base: 18px !default;
     &:hover {
       color: $coral;
     }
+
+    i,
+    svg {
+      color: $gold !important;
+    }
+
+    &:hover i,
+    &:hover svg {
+      color: $coral !important;
+    }
   }
 }
