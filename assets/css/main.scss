@@ -43,7 +43,7 @@ $footer-background-color: $burgundy-dark !default;
 // Typography
 $sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $sans-serif-narrow: $sans-serif !default;
-$type-size-base: 16px !default;
+$type-size-base: 14px !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
