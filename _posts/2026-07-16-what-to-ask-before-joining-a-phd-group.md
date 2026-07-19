@@ -83,7 +83,7 @@ Rather than making this post thousands of words long, I've documented the full l
 
 The full list contains more criteria than you will likely need. Do not treat it as a checklist where every item must be evaluated. Instead, use it as a source of ideas and select the criteria that matter most for your own decision. 
 
-[PhD Position Evaluation Criteria](phdmentor.org/resources/phd-position-evaluation-criteria/)
+[PhD Position Evaluation Criteria](/resources/phd-position-evaluation-criteria/)
 
 Want to compare multiple PhD offers? You can download the comparison template I used and adapt it to your own priorities. 
 
