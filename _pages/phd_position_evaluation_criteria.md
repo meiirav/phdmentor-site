@@ -10,7 +10,7 @@ header:
 
 Terminology: In this resource, I use "PI" (principal investigator) and "supervisor" to refer to the person primarily responsible for guiding your PhD research. In some institutions, the PI is your direct supervisor, while in others you may have a different day-to-day supervisor (such as a senior researcher or co-supervisor). 
 
-<details>
+<details markdown="1">
 <summary><strong>Project</strong></summary>
 
 ### Research freedom
