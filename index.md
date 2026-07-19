@@ -39,7 +39,7 @@ feature_row:
 ---
 
 <div class="page__content" style="max-width: 700px; margin: 0 auto; text-align: center;">
-  <p style="font-size: 1.25em; line-height: 1.6;">Most PhD advisors are hired for their research, not their supervision. If you feel underguided, underinformed, or just plain lost — you are not the problem, and you are not alone.</p>
+  <p style="font-size: 1.15em; line-height: 1.6;">Most PhD advisors are hired for their research, not their supervision. If you feel underguided, underinformed, or just plain lost — you are not the problem, and you are not alone.</p>
 </div>
 
 {% include feature_row %}
