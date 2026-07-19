@@ -76,7 +76,7 @@ To keep the evaluation manageable, I grouped the criteria into six broad categor
 * University
 * Location
 
-In the following resources, I explain why each parameter matters, and also how you can gain information about it. For example, when considering the project, you may give weight not only to your own interest in it, but also the PI's level of enthusiasm for the project, as it affects the amount of attention, involvement, and feedback the project is likely to receive. Under the university category, you can also look at other research groups within the department. While not directly related to the position, it could provide a safety net if you ever need to switch to a different supervisor, if, for instance, your supervisor decides to leave academia.
+In the following resources, I explain why each parameter matters, and also how you can gain information about it. For example, when considering the project, you may give weight not only to your own interest in it, but also the principal investigator (PI)'s level of enthusiasm for the project, as it affects the amount of attention, involvement, and feedback the project is likely to receive. Under the university category, you can also look at other research groups within the department. While not directly related to the position, it could provide a safety net if you ever need to switch to a different supervisor, if, for instance, your supervisor decides to leave academia.
 
 ## Full criteria list and template
 Rather than making this post thousands of words long, I've documented the full list of evaluation criteria in a separate resource page. For each criterion, I explain why it matters, how you can evaluate it, and where to find the relevant information.
