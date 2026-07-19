@@ -82,6 +82,9 @@ In the following resources, I explain why each parameter matters, and also how y
 Rather than making this post thousands of words long, I've documented the full list of evaluation criteria in a separate resource page. For each criterion, I explain why it matters, how you can evaluate it, and where to find the relevant information.
 
 The full list contains more criteria than you will likely need. Do not treat it as a checklist where every item must be evaluated. Instead, use it as a source of ideas and select the criteria that matter most for your own decision. 
+
+[PhD Position Evaluation Criteria](phdmentor.org/resources/phd-position-evaluation-criteria/)
+
 Want to compare multiple PhD offers? You can download the comparison template I used and adapt it to your own priorities. 
 
 [PhDMentor - PhD Position Comparison Template](https://docs.google.com/spreadsheets/d/1fLAhQBTv3VX41Jmj5xiMT39Wl2tFzn37U4ahOt4X_us/copy)
