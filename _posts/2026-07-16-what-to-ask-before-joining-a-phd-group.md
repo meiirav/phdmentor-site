@@ -29,12 +29,14 @@ Before evaluating different offers, take some time to think about what you actua
 I scored each position from 1-10 on every criterion and assigned each criterion a weight based on its importance to me. Not every criterion should carry the same weight. For one student, location may be a deciding factor because of family commitments. For another, research freedom or industry collaborations may matter much more. The weighting step forces you to think explicitly about your priorities instead of treating every factor as equally important. I then calculated a weighted average to compare the offers. 
 
 Example:
+
 | Parameter | Weight | Option A | Option B |
 |----------|-------:|---------:|---------:|
 | Research freedom | 4 | 10 | 3 |
 | Supervisor responsiveness | 5 | 7 | 9 | 
 | Group atmosphere | 2 | 8 | 5 |
 | **Weighted average** | | **8.27** | **6.09** | 
+
 
 ## Why this framework helped me 
 
